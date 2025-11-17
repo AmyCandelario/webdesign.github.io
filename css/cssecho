@@ -1,0 +1,11 @@
+body{
+	background-color:#EBD095
+}
+h1{
+	.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
