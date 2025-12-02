@@ -1,0 +1,41 @@
+
+body{
+
+margin: 0;
+background: #ececec;
+}
+
+.grid{
+	display: grid;
+	width: 100vh;
+	height:90vh ;
+	margin: 1px auto;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 0.5fr 3 fr 0.5fr;
+}
+.header{
+grid-column: 1/ span2;
+background: lightgrey;
+height:60 ;
+}
+
+.top{
+	grid-column: 1/ span2;
+	background: #77808C;
+	height: 100px;
+}
+.left{
+	background: #1a4fa3;
+}
+
+.right{
+	background:#26354f;
+	height:1000px;
+}
+
+
+.bottom{
+	background: #4b0716;
+grid-column: 1/ span 2;
+height: 40;
+}
